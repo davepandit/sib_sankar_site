@@ -43,6 +43,7 @@ export default function Header() {
             href: '#',
             type: 'dropdown',
             items: [
+                { name: 'Papers', href: '/publications/papers' },
                 { name: 'Patents', href: '/publications/patents' },
                 { name: 'Book Chapters', href: '/publications/book-chapters' },
             ]
