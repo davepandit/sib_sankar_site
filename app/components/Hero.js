@@ -109,8 +109,7 @@ const Hero = () => {
                                         <div className="mb-1">
                                             <span className="text-sm font-bold text-green-700 bg-green-50 px-2 py-1 rounded inline-block mb-1">Since 10/2023</span>
                                         </div>
-                                        <h4 className="text-lg font-bold text-gray-900">Associate Professor</h4>
-                                        <p className="text-gray-700">National Institute of Technology (NIT-K) at Surathkal, India.</p>
+                                        <h4 className="text-lg font-bold text-gray-900">Associate Professor <span className="text-base font-normal text-gray-700">(NITK Surathkal, India)</span></h4>
                                     </div>
 
                                     <div className="relative">
@@ -118,8 +117,7 @@ const Hero = () => {
                                         <div className="mb-1">
                                             <span className="text-sm font-bold text-gray-500 bg-gray-50 px-2 py-1 rounded inline-block mb-1">11/2013 - 10/2023</span>
                                         </div>
-                                        <h4 className="text-lg font-bold text-gray-900">Assistant Professor</h4>
-                                        <p className="text-gray-700">National Institute of Technology (NIT-K) at Surathkal, India.</p>
+                                        <h4 className="text-lg font-bold text-gray-900">Assistant Professor <span className="text-base font-normal text-gray-700">(NITK Surathkal, India)</span></h4>
                                     </div>
 
                                     <div className="relative">
@@ -127,12 +125,7 @@ const Hero = () => {
                                         <div className="mb-1">
                                             <span className="text-sm font-bold text-gray-500 bg-gray-50 px-2 py-1 rounded inline-block mb-1">11/2011 - 10/2013</span>
                                         </div>
-                                        <h4 className="text-lg font-bold text-gray-900">Alexander von Humboldt Postdoctoral Research Fellow</h4>
-                                        <div className="text-gray-700 mt-1 space-y-1">
-                                            <p>Hamburg University, Germany</p>
-                                            <p><span className="font-semibold text-gray-900">Research Group:</span> Prof. Dr. Peter Burger</p>
-                                            <p><span className="font-semibold text-gray-900">Topic:</span> Redox-Active Transition Metal-Containing Ionic Liquids for Use in Flow Batteries.</p>
-                                        </div>
+                                        <h4 className="text-lg font-bold text-gray-900">Alexander von Humboldt Postdoctoral Research Fellow <span className="text-base font-normal text-gray-700">(Hamburg University, Germany)</span></h4>
                                     </div>
 
                                     <div className="relative">
@@ -140,12 +133,7 @@ const Hero = () => {
                                         <div className="mb-1">
                                             <span className="text-sm font-bold text-gray-500 bg-gray-50 px-2 py-1 rounded inline-block mb-1">01/2009 - 02/2011</span>
                                         </div>
-                                        <h4 className="text-lg font-bold text-gray-900">Postdoctoral Fellow</h4>
-                                        <div className="text-gray-700 mt-1 space-y-1">
-                                            <p>Center for Catalysis Research and Innovation (CCRI), University of Ottawa, Canada</p>
-                                            <p><span className="font-semibold text-gray-900">Research Group:</span> Prof. Dr. R.T. Baker</p>
-                                            <p><span className="font-semibold text-gray-900">Topic:</span> 1. Development of Amine-Borane Fuels. 2. New Base Metal heterogeneous Catalysts for Sodium Borohydride hydrolysis.</p>
-                                        </div>
+                                        <h4 className="text-lg font-bold text-gray-900">Postdoctoral Fellow <span className="text-base font-normal text-gray-700">(Center for Catalysis Research and Innovation (CCRI), University of Ottawa, Canada)</span></h4>
                                     </div>
                                 </div>
                             </section>
@@ -165,40 +153,11 @@ const Hero = () => {
                             </h3>
                             <div className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
                                 {/* Ph.D */}
-                                <div className="p-5 md:p-6 border-b border-gray-100 hover:bg-gray-50/50 transition-colors">
-                                    <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 mb-2">
-                                        <h4 className="text-lg font-bold text-gray-900">Doctor of Philosophy (Ph.D.)</h4>
+                                <div className="p-5 md:p-6 hover:bg-gray-50/50 transition-colors">
+                                    <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2">
+                                        <h4 className="text-lg font-bold text-gray-900">Doctor of Philosophy (Ph.D.) <span className="text-base font-medium text-green-700">(Indian Institute of Technology (IIT) Bombay, India)</span></h4>
                                         <span className="text-sm font-medium text-gray-500 whitespace-nowrap">10/2004 - 11/2008</span>
                                     </div>
-                                    <p className="text-green-700 font-medium mb-3">Jacobs University, Bremen, Germany</p>
-                                    <div className="text-sm text-gray-600 grid grid-cols-1 md:grid-cols-[auto,1fr] gap-x-6 gap-y-1">
-                                        <span className="font-semibold text-gray-800">Group:</span>
-                                        <span>Prof. Dr. Ulrich Kortz</span>
-                                        <span className="font-semibold text-gray-800">Topic:</span>
-                                        <span className="leading-snug">Synthesis and structural characterization with multiple analytical methods of Polyoxometalate Chemistry</span>
-                                    </div>
-                                </div>
-
-                                {/* M.Sc */}
-                                <div className="p-5 md:p-6 border-b border-gray-100 hover:bg-gray-50/50 transition-colors">
-                                    <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 mb-2">
-                                        <h4 className="text-lg font-bold text-gray-900">Master of Science (M.Sc.)</h4>
-                                        <span className="text-sm font-medium text-gray-500 whitespace-nowrap">08/2001 - 08/2003</span>
-                                    </div>
-                                    <p className="text-green-700 font-medium mb-3">Indian Institute of Technology, Bombay, India</p>
-                                    <div className="text-sm text-gray-600 grid grid-cols-1 md:grid-cols-[auto,1fr] gap-x-6 gap-y-1">
-                                        <span className="font-semibold text-gray-800">Topic:</span>
-                                        <span>Phosphorus Chemistry</span>
-                                    </div>
-                                </div>
-
-                                {/* B.Sc */}
-                                <div className="p-5 md:p-6 hover:bg-gray-50/50 transition-colors">
-                                    <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 mb-2">
-                                        <h4 className="text-lg font-bold text-gray-900">Bachelor of Science (B.Sc.)</h4>
-                                        <span className="text-sm font-medium text-gray-500 whitespace-nowrap">08/1998 - 08/2001</span>
-                                    </div>
-                                    <p className="text-green-700 font-medium">Vidyasagar University, Kolkata</p>
                                 </div>
                             </div>
                         </section>
