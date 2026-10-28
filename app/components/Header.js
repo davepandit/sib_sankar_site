@@ -45,7 +45,7 @@ export default function Header() {
             items: [
                 { name: 'Papers', href: '/publications/papers' },
                 { name: 'Patents', href: '/publications/patents' },
-                { name: 'Book Chapters', href: '/publications/book-chapters' },
+                { name: 'Books', href: '/publications/books' },
             ]
         },
         { name: 'Gallery', href: '/gallery' },

@@ -1,6 +1,6 @@
 import Header from "@/app/components/Header";
 
-export default function BookChaptersPage() {
+export default function BooksPage() {
     const chapters = [
         {
             id: 1,
@@ -24,16 +24,22 @@ export default function BookChaptersPage() {
         },
     ];
 
+    const editedBooks = [
+        {
+            id: 1,
+            title: "\u201cNovel Materials for Energy Translation and Storage\u201d- NOVA Science Publisher, USA",
+        },
+    ];
+
     return (
         <main className="min-h-screen bg-white text-gray-900">
             <Header />
             <div className="pt-36">
-                <div className="max-w-7xl mx-auto px-4 md:px-6 mb-12 text-center">
-                    <h1 className="text-4xl font-bold tracking-tight text-gray-900">Book Chapters</h1>
-                    <p className="mt-4 text-lg text-gray-600">List of published book chapters and contributions.</p>
-                </div>
-
                 <div className="max-w-7xl mx-auto px-4 md:px-6 pb-20">
+                    <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                        <span className="w-2 h-8 bg-green-500 rounded-full mr-3"></span>
+                        Book Chapters
+                    </h3>
                     <div className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
                         <div className="overflow-x-auto">
                             <table className="w-full text-left border-collapse">
@@ -59,6 +65,31 @@ export default function BookChaptersPage() {
                                                     </span>
                                                 ))}
                                             </td>
+                                        </tr>
+                                    ))}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-6 flex items-center">
+                        <span className="w-2 h-8 bg-green-500 rounded-full mr-3"></span>
+                        Book Editor
+                    </h3>
+                    <div className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
+                        <div className="overflow-x-auto">
+                            <table className="w-full text-left border-collapse">
+                                <thead>
+                                    <tr className="bg-green-50/50 border-b border-green-100 text-green-800">
+                                        <th className="p-4 font-semibold w-16 text-center whitespace-nowrap">Sl No.</th>
+                                        <th className="p-4 font-semibold min-w-[300px]">Book Title</th>
+                                    </tr>
+                                </thead>
+                                <tbody className="divide-y divide-gray-100">
+                                    {editedBooks.map((book) => (
+                                        <tr key={book.id} className="hover:bg-gray-50/50 transition-colors">
+                                            <td className="p-4 text-center font-medium text-gray-500 align-top text-sm">{book.id}</td>
+                                            <td className="p-4 font-medium text-gray-800 align-top leading-relaxed text-sm">{book.title}</td>
                                         </tr>
                                     ))}
                                 </tbody>
