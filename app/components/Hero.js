@@ -13,7 +13,7 @@ const Hero = () => {
                                 <div className="absolute inset-0 rounded-full border-4 border-white shadow-md overflow-hidden bg-white">
                                     <Image
                                         src="/profile.jpg"
-                                        alt="Prof. Sib Sankar"
+                                        alt="Dr. Sib Sankar Mal"
                                         fill
                                         className="object-cover"
                                         priority
@@ -88,7 +88,7 @@ const Hero = () => {
                     {/* Right Column: Header & Prof Exp */}
                     <div className="lg:col-span-8 xl:col-span-9">
                         <div className="space-y-2 mb-8 border-b border-gray-100 pb-8">
-                            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 tracking-tight">Prof. Sib Sankar</h1>
+                            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 tracking-tight">Dr. Sib Sankar Mal</h1>
                             <div className="space-y-1">
                                 <p className="text-xl md:text-2xl font-semibold text-green-700">Associate Professor</p>
                                 <p className="text-lg text-gray-700 font-medium">Department of Chemistry</p>

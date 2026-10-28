@@ -7,7 +7,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Prof. Sib Sankar",
+  title: "Dr. Sib Sankar Mal",
   description: "Chemistry Department Professor",
 };
 
