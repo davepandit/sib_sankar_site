@@ -1,13 +1,20 @@
 import Image from 'next/image';
+import Link from 'next/link';
+import { publications } from '@/app/data/publications';
+
+const courses = [
+    "CY 111", "CY 110", "CY 305", "CY 755", "CY 701", "CY 705",
+    "CY 804", "CY 861", "CY 866", "CY 863", "CY 874",
+];
 
 const Hero = () => {
     return (
         <section className="bg-white py-12 md:py-16">
             <div className="max-w-7xl mx-auto px-4 md:px-6">
-                <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 mb-10">
+                <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
                     {/* Left Column: Profile & Sidebar */}
-                    <div className="lg:col-span-4 xl:col-span-3">
-                        <div className="bg-green-50/50 rounded-2xl p-6 md:p-8 flex flex-col items-center text-center h-full border border-green-100/50 shadow-sm">
+                    <div className="lg:col-span-4 xl:col-span-3 self-start">
+                        <div className="bg-green-50/50 rounded-2xl p-6 md:p-8 flex flex-col items-center text-center border border-green-100/50 shadow-sm">
                             {/* Profile Image */}
                             <div className="relative w-48 h-48 md:w-56 md:h-56 mb-6">
                                 <div className="absolute inset-0 rounded-full border-4 border-white shadow-md overflow-hidden bg-white">
@@ -137,30 +144,60 @@ const Hero = () => {
                                     </div>
                                 </div>
                             </section>
-                        </div>
-                    </div>
-                </div>
 
-                {/* Grid 2: Education (Full Width Row) */}
-                <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
-                    <div className="lg:col-span-4 xl:col-span-3 hidden lg:block"></div>
-                    <div className="lg:col-span-8 xl:col-span-9">
-                        {/* Education Section */}
-                        <section>
-                            <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
-                                <span className="w-2 h-8 bg-green-500 rounded-full mr-3"></span>
-                                Educational Qualification
-                            </h3>
-                            <div className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
-                                {/* Ph.D */}
-                                <div className="p-5 md:p-6 hover:bg-gray-50/50 transition-colors">
-                                    <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2">
-                                        <h4 className="text-lg font-bold text-gray-900">Doctor of Philosophy (Ph.D.) <span className="text-base font-medium text-green-700">(Indian Institute of Technology (IIT) Bombay, India)</span></h4>
-                                        <span className="text-sm font-medium text-gray-500 whitespace-nowrap">10/2004 - 11/2008</span>
+                            {/* Education Section */}
+                            <section>
+                                <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                                    <span className="w-2 h-8 bg-green-500 rounded-full mr-3"></span>
+                                    Educational Qualification
+                                </h3>
+                                <div className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+                                    {/* Ph.D */}
+                                    <div className="p-5 md:p-6 hover:bg-gray-50/50 transition-colors">
+                                        <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2">
+                                            <h4 className="text-lg font-bold text-gray-900">Doctor of Philosophy (Ph.D.) <span className="text-base font-medium text-green-700">(Indian Institute of Technology (IIT) Bombay, India)</span></h4>
+                                            <span className="text-sm font-medium text-gray-500 whitespace-nowrap">10/2004 - 11/2008</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </section>
+                            </section>
+
+                            {/* Top Publications Section */}
+                            <section>
+                                <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                                    <span className="w-2 h-8 bg-green-500 rounded-full mr-3"></span>
+                                    Top Publications
+                                </h3>
+                                <div className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+                                    <ol className="divide-y divide-gray-100">
+                                        {publications.slice(0, 5).map((pub) => (
+                                            <li key={pub.id} className="flex gap-4 p-5 md:p-6 hover:bg-gray-50/50 transition-colors">
+                                                <span className="w-6 shrink-0 text-center font-medium text-gray-500">{pub.id}</span>
+                                                <p className="text-gray-700 leading-relaxed">{pub.citation}</p>
+                                            </li>
+                                        ))}
+                                    </ol>
+                                </div>
+                                <Link href="/publications/papers" className="inline-block mt-6 text-lg font-semibold text-green-700 hover:text-green-800 transition-colors">
+                                    View all publications &rarr;
+                                </Link>
+                            </section>
+
+                            {/* Courses Section */}
+                            <section>
+                                <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                                    <span className="w-2 h-8 bg-green-500 rounded-full mr-3"></span>
+                                    Courses
+                                </h3>
+                                <div className="flex flex-wrap gap-3">
+                                    {courses.map((course) => (
+                                        <span key={course} className="bg-green-50 text-green-700 text-lg font-bold px-6 py-3 rounded-full border border-green-100/50">
+                                            {course}
+                                        </span>
+                                    ))}
+                                </div>
+                            </section>
+                        </div>
                     </div>
                 </div>
             </div>

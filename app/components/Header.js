@@ -48,15 +48,6 @@ export default function Header() {
                 { name: 'Book Chapters', href: '/publications/book-chapters' },
             ]
         },
-        {
-            name: 'Teaching',
-            href: '#',
-            type: 'dropdown',
-            items: [
-                { name: 'B.Tech', href: '/teaching/btech' },
-                { name: 'M.Sc', href: '/teaching/msc' },
-            ]
-        },
         { name: 'Gallery', href: '/gallery' },
     ];
 
