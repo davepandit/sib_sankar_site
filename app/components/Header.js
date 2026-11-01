@@ -47,6 +47,7 @@ export default function Header() {
                 { name: 'Patents', href: '/publications/patents' },
                 { name: 'Books', href: '/publications/books' },
                 { name: 'Invited Talks', href: '/publications/invited-talks' },
+                { name: 'RCS Journal Front Cover', href: '/publications/rcs-journal-front-cover' },
             ]
         },
         { name: 'Gallery', href: '/gallery' },
