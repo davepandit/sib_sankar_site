@@ -46,6 +46,7 @@ export default function Header() {
                 { name: 'Papers', href: '/publications/papers' },
                 { name: 'Patents', href: '/publications/patents' },
                 { name: 'Books', href: '/publications/books' },
+                { name: 'Invited Talks', href: '/publications/invited-talks' },
             ]
         },
         { name: 'Gallery', href: '/gallery' },
