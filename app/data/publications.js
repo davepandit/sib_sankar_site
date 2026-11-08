@@ -1,168 +1,136 @@
+// Publications, latest first (source: public/publications.md)
 export const publications = [
-  {
-    id: 1,
-    citation: (
-      <>
-        Electrode dependence and interfacial effects in modulating resistive
-        switching performance of Cu xO based memristor. Nivedya Thathron,
-        Snehasish Jana, Sushil Pandey, <strong>Sib Sankar Mal*</strong>, Partha
-        Pratim Das*.{" "}
-        <strong style={{ color: "red" }}>
-          Submitted to ACS Applied Electronic Materials
-        </strong>
-      </>
-    ),
-  },
-  {
-    id: 2,
-    citation: (
-      <>
-        Fabrication of VS2/MXene heterostructure electrode-based
-        micro-supercapacitor for on-chip energy source applications. Ashish
-        Kumar Yadav, Jasil T K, Muhammed Anees P. K., Nivedya Thathron, Ajith
-        Kulangara Madam, <strong>Sib Sankar Mal</strong>, Partha Pratim Das, and
-        Sushil Kumar Pandey*.{" "}
-        <strong style={{ color: "red" }}>
-          Subitted to IEEE Transactions on Materials for Electron Devices
-        </strong>
-      </>
-    ),
-  },
-  {
-    id: 3,
-    citation: (
-      <>
-        Carbon Nanotube-Supported Vanadium Substituted Phospho-Molybdate
-        Nanohybrid for Supercapacitor Application. Bhimaraya R Biradar, Swetha M
-        T, Nivedya Thathron, Muhammed Anees P. K., Aniket Hanchate, Partha
-        Pratim Das*, <strong>Sib Sankar Mal*</strong>.{" "}
-        <strong style={{ color: "red" }}>Accepted to ChemPhysChem</strong>
-      </>
-    ),
-  },
-  {
-    id: 4,
-    citation: (
-      <>
-        Activated Carbon-Infused Starch Composite Films: Redefining Cosmetic
-        Facial Sheet Masks. Siya Jain, Shreya Shahapur, Pooja N; Madhusree J E,
-        Sib Sankar Mal, Nirmal Mazumder*.{" "}
-        <strong style={{ color: "red" }}>
-          Submitted to Materials Today Sustainability
-        </strong>
-      </>
-    ),
-  },
-  {
-    id: 5,
-    citation: (
-      <>
-        Revealing the Structure Organization of Starch From Native Potatoes
-        Using Polarization-Resolved Second Harmonic Generation Microscopy. Kiran
-        Kumar Kolathur, Nandana Bijulal, Gagan Raju, Bhaswati Sarmah, Vishwa
-        Jyoti Baruah, Ishita Chakraborty, Sib Sankar Mal, Hemanth Noothalapati,
-        Ajeetkumar Patil, Guan-Yu Zhuo, Nirmal Mazumder*,
-        <em> Microscopy and Microanalysis</em>, <strong>2025</strong>, 31,
-        ozaf010. <strong>(IF: 3.2, Q2)</strong>
-      </>
-    ),
-  },
-  {
-    id: 6,
-    citation: (
-      <>
-        Polyoxometalate integrated with conducting polymers nanocomposites for
-        Supercapacitor and Biological Sensor Applications. Muhammed Anees P. K.,{" "}
-        <strong>Sib Sankar Mal*</strong> <em>Inorg. Chem.</em>,{" "}
-        <strong>2025</strong>, 64, 16, 8222–8237.
-        <strong> (IF: 4.3, Q1)</strong>
-      </>
-    ),
-  },
-  {
-    id: 7,
-    citation: (
-      <>
-        Catalytic Activity of Xanthen and Unprecedented Evolution of
-        Naphthopyrans Using Heteropoly Acid-Tantalum(V) Oxide Hybrid Composite
-        as promoter. Joydeep Mahapatra, Sneha Ghosh Dastidar, Damini Jagankar,
-        Namrata Roy, Amitava Mukherjee, Chandan Maity, Jyoti Sharma, Tarun K.
-        Panda, and <strong>Sib Sankar Mal*</strong> <em>ChemistrySelect</em>,{" "}
-        <strong>2025</strong>, 10, e202406059.
-        <strong> (IF: 2.1, Q3)</strong>
-      </>
-    ),
-  },
-  {
-    id: 8,
-    citation: (
-      <>
-        Assessment of Biocompatibility for Citric Acid Crosslinked Starch
-        Elastomeric Films in Cell Culture Applications. Pooja N, Nafisa Yeshmin
-        Ahmed, <strong>Sib Sankar Mal</strong>, Bharath Prasad A. S, Nirmal
-        Mazumder*, <em>Scientific Reports</em>, <strong>2025</strong>, 15, 6427.{" "}
-        <strong>(IF: 3.8, Q1)</strong>
-      </>
-    ),
-  },
-  {
-    id: 9,
-    citation: (
-      <>
-        Dual Oxygen Reservoir Model for Nonpolar Resistive Switching in Nickel
-        Tetradecavanadate Based Molecular Switch. Nivedya Thathron, Bhimaraya R
-        Biradar, Sushil Kumar Pandey, <strong>Sib Sankar Mal*</strong>, Partha
-        Pratim Das* <strong>Physica B: Condensed Matter</strong>,{" "}
-        <strong>2025</strong>, 710, 412266. <strong>(IF: 2.8, Q2)</strong>
-      </>
-    ),
-  },
-  {
-    id: 10,
-    citation: (
-      <>
-        Immobilization of heterogeneous Keggin and Wells-Dawson type
-        polyoxometalates on Biomass-derived activated carbon for energy storage
-        applications. Madhusree J E, Pranay R. Chandewar, Debaprasad Shee,{" "}
-        <strong>Sib Sankar Mal*</strong>{" "}
-      </>
-    ),
-  },
-  {
-    id: 11,
-    citation: (
-      <>
-        Development of a Cholesterol Biosensor and Energy Storage system based
-        on Polypyrrole Coated Polyoxometalate. Bhimaraya R Biradar, Nivedya
-        Thathron, Aniket Hanchate, Partha Pratim Das*,{" "}
-        <strong>Sib Sankar Mala</strong>,{" "}
-        <strong>Journal of Alloys and Compounds</strong>, <strong>2025</strong>,
-        178994. <strong>(IF: 5.8, Q1)</strong>
-      </>
-    ),
-  },
-  {
-    id: 12,
-    citation: (
-      <>
-        Phosphomolybdic acid-polypyrrole-cationic ionic liquid-based
-        High-performing Electrode Materials for Supercapacitor and Hydrogen
-        Evolution Reactions. Muhammed Anees, P. K., Selvaraj Iniyan, Murugavel
-        Kathiresan*, <strong>Sib Sankar Mal*</strong>{" "}
-      </>
-    ),
-  },
-  {
-    id: 13,
-    citation: (
-      <>
-        The Cyclic 48-Tungsto-8-Phosphate [H7P8W48O184]33- Contant-Tézé
-        Polyanion and its Derivatives [H6P4W24O94]18- and [H2P2W12O48]12-:
-        Structural Aspects and Reactivity. <strong>Sib Sankar Mal*</strong>,
-        Abhishek Banerjee, and Ulrich Kortz*, <em>Dalton Transactions</em>,{" "}
-        <strong>2025</strong>, 54, 5208–5233.
-        <strong> (IF: 3.5, Q1) (Appeared as HOT ARTICLE)</strong>
-      </>
-    ),
-  },
+    {
+        id: 1,
+        title: "Water-Mediated Green Synthesis of Coumarin Derivatives using Recyclable Heteropoly Acid-Niobium(V) Oxide Hybrid Catalyst",
+        authors: "Joydeep Mahapatra, Soumya Deep Maity, Dineshkumar Bharathidasan, Chandan Maity, and Sib Sankar Mal*",
+        journal: "RSC Advances",
+        year: "2026",
+        impact: "IF: 6.1, Q2",
+    },
+    {
+        id: 2,
+        title: "Recent developments in the application of Metal-organic frameworks for desalination and ion capture using capacitive deionisation",
+        authors: "Bency Jose, Sib Sankar Mal*",
+        journal: "The Chemical Record",
+        year: "2026",
+        details: "E70178",
+        impact: "IF: 8.9, Q1",
+    },
+    {
+        id: 3,
+        title: "STMP Crosslinking of Pigmented Whole Bao Rice Flours: Effects on Structural, Rheological, Digestive, Bioactive and Gel-Forming Properties",
+        authors: "Gunjan Deka, Sayantan Chakraborty, Ishita Chakraborty, Nirmal Mazumder, Sib Sankar Mal, Manish Pratim Sarma, and Himjyoti Dutta",
+        journal: "Food Biophysics",
+        year: "2026",
+        details: "21: 100",
+        impact: "IF: 3.9, Q2",
+    },
+    {
+        id: 4,
+        title: "Immobilization of heterogeneous Keggin and Wells-Dawson type polyoxometalates on Biomass-derived activated carbon for energy storage applications",
+        authors: "Madhusree J E, Pranay R. Chandewar, Debaprasad Shee, Sib Sankar Mal*",
+        journal: "New Journal of Chemistry",
+        year: "2026",
+        details: "50(27), 11416-11429",
+        impact: "IF: 2.6, Q2",
+    },
+    {
+        id: 5,
+        title: "Polyoxometalates in Environmental Remediation",
+        authors: "Ingrid Gregorovic, Nahid Lotfian, Ruhollah Khajavian, Sukanya Maity, Masoud Mirzaei*, Sib Sankar Mal*, Manuel Aureliano*, and Annette Rompel*",
+        journal: "Environmental Science: Nano",
+        year: "2026",
+        details: "13, 1295-1346",
+        impact: "IF: 5.1, Q2",
+    },
+    {
+        id: 6,
+        title: "Fabrication of VS2/MXene heterostructure electrode-based micro-supercapacitor for on-chip energy source applications",
+        authors: "Nivedya Thathron, Muhammed Anees P. K., Sib Sankar Mal, Partha Pratim Das, Sushil Kumar Pandey*",
+        journal: "IEEE Transactions on Materials for Electron Devices",
+        impact: "IF: 3.2, Q2",
+    },
+    {
+        id: 7,
+        title: "Interfacial effects and top electrode dependence in modulating resistive switching performance of CuXO based memory devices",
+        authors: "Nivedya Thathron, Snehasish Jana, Sushil Kumar Pandey, Sib Sankar Mal*, Partha Pratim Das*",
+        journal: "Surface Science",
+        year: "2026",
+        details: "87, 108843",
+        impact: "IF: 6.1, Q1",
+    },
+    {
+        id: 8,
+        title: "Hydrothermal process optimization, product characterization, and storage stability evaluation of red bao rice instant porridge mix",
+        authors: "Gunjana Deka, Siddhartha Singha, Dev Kumar Yadav, Ishita Chakraborty, Nirmal Mazumder, Sib Sankar Mal, Himjyoti Dutta",
+        journal: "Journal of Food Science and Technology",
+        year: "2026",
+        details: "1-14",
+        impact: "IF: 3.3, Q2",
+    },
+    {
+        id: 9,
+        title: "Dual-Functional Phosphomolybdic Acid-Polypyrrole-Ionic Liquid Nanocomposites for Energy Storage and Hydrogen Evolution: Experimental and Theoretical Studies",
+        authors: "Muhammed Anees, P. K., Selvaraj Iniyan, Chandrodai Pratap Singh, Murugavel Kathiresan*, Sailaja Krishnamurty, Sib Sankar Mal*",
+        journal: "Dalton Trans",
+        year: "2026",
+        details: "55, 1455-1472",
+        impact: "IF: 2.2, Q2",
+    },
+    {
+        id: 10,
+        title: "Carbon Nanotube-Supported Vanadium Substituted Phospho-Molybdate Nanohybrid for Supercapacitor Application",
+        authors: "Bhimaraya R Biradar, Swetha M T, Nivedya Thathron, Muhammed Anees P. K., Aniket Hanchate, Partha Pratim Das*, Sib Sankar Mal*",
+        journal: "ChemPhysChem",
+        year: "2025",
+        details: "e202500557",
+        note: "(Appeared as HOT TOPIC in Batteries and Supercapacitors)",
+        impact: "IF: 2.2, Q2",
+    },
+    {
+        id: 11,
+        title: "Catalytically Controlled Formation of Coumarin-based Hydrogelator Enables Colorimetric Ferrous Ion detection in Sol and Hydrogel",
+        authors: "Nikita Das, Samir Mandal, Sib Sankar Mal, Suryasarathi Bose, and Chandan Maity*",
+        journal: "Communications Chemistry",
+        year: "2025",
+        details: "8(1), 372",
+        impact: "IF: 6.581, Q1",
+    },
+    {
+        id: 12,
+        title: "Revealing the Structural Organization of Starch from Native Potatoes Using Polarization-Resolved Second Harmonic Generation Microscopy",
+        authors: "Kiran Kumar Kolathur, Nandana Bijulal, Gagan Raju, Bhaswati Sarmah, Vishwa Jyoti Baruah, Ishita Chakraborty, Sib Sankar Mal, Hemanth Noothalapati, Ajeetkumar Patil, Guan-Yu Zhuo, Nirmal Mazumder*",
+        journal: "Microscopy and Microanalysis",
+        year: "2025",
+        details: "31, ozaf010",
+        impact: "IF: 3.2, Q2",
+    },
+    {
+        id: 13,
+        title: "Polyoxometalate integrated with conducting polymers nanocomposites for Supercapacitor and Biological Sensor Applications",
+        authors: "Muhammed Anees P. K., Sib Sankar Mal*",
+        journal: "Inorg. Chem.",
+        year: "2025",
+        details: "64, 16, 8222–8237",
+        impact: "IF: 4.3, Q1",
+    },
+    {
+        id: 14,
+        title: "Catalytic Activity of Xanthene and Unprecedented Evolution of Naphthopyrans Using Heteropoly Acid-Tantalum(V) Oxide Hybrid Composite as Promoter",
+        authors: "Joydeep Mahapatra, Sneha Ghosh Dastidar, Damini Jagankar, Namrata Roy, Amitava Mukherjee, Chandan Maity, Jyoti Sharma, Tarun K. Panda, and Sib Sankar Mal*",
+        journal: "ChemistrySelect",
+        year: "2025",
+        details: "10, e202406059",
+        impact: "IF: 2.1, Q3",
+    },
+    {
+        id: 15,
+        title: "Assessment of Biocompatibility for Citric Acid Crosslinked Starch Elastomeric Films in Cell Culture Applications",
+        authors: "Pooja N, Nafisa Yeshmin Ahmed, Sib Sankar Mal, Bharath Prasad A. S, Nirmal Mazumder*",
+        journal: "Scientific Reports",
+        year: "2025",
+        details: "15, 6427",
+        impact: "IF: 3.8, Q1",
+    },
 ];

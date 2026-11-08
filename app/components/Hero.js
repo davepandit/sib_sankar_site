@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import PublicationList from '@/app/components/PublicationList';
 import { publications } from '@/app/data/publications';
 
 const courses = [
@@ -169,14 +170,7 @@ const Hero = () => {
                                     Top Publications
                                 </h3>
                                 <div className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
-                                    <ol className="divide-y divide-gray-100">
-                                        {publications.slice(0, 5).map((pub) => (
-                                            <li key={pub.id} className="flex gap-4 p-5 md:p-6 hover:bg-gray-50/50 transition-colors">
-                                                <span className="w-6 shrink-0 text-center font-medium text-gray-500">{pub.id}</span>
-                                                <p className="text-gray-700 leading-relaxed">{pub.citation}</p>
-                                            </li>
-                                        ))}
-                                    </ol>
+                                    <PublicationList publications={publications.slice(0, 5)} />
                                 </div>
                                 <Link href="/publications/papers" className="inline-block mt-6 text-lg font-semibold text-green-700 hover:text-green-800 transition-colors">
                                     View all publications &rarr;
