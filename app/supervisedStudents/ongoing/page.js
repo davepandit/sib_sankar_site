@@ -1,11 +1,14 @@
 import Header from "@/app/components/Header";
 import PhdScholarCard from "@/app/components/PhdScholarCard";
+import MscTable from "@/app/components/MscTable";
 import { phdGuided } from "@/app/data/phdStudents";
+import { mscGuided } from "@/app/data/mscStudents";
 
 // Ongoing students are the guided students with no year of passing yet
 const ongoing = phdGuided.filter((s) => !s.year);
 const phdStudents = ongoing.filter((s) => s.supervision === "Guide (PI)");
 const coGuideStudents = ongoing.filter((s) => s.supervision === "Co-guide (Co-PI)");
+const mscStudents = mscGuided.filter((s) => s.ongoing);
 
 const Section = ({ title, students }) => (
     <section className="mb-20">
@@ -40,6 +43,7 @@ export default function OngoingStudentsPage() {
                 <div className="max-w-7xl mx-auto px-4 md:px-6 pb-20">
                     <Section title="Ph.D. Students" students={phdStudents} />
                     <Section title="Co-Guide Students" students={coGuideStudents} />
+                    <MscTable data={mscStudents} title="MSC" centered />
                 </div>
             </div>
         </main>

@@ -3,11 +3,6 @@ import Link from 'next/link';
 import PublicationList from '@/app/components/PublicationList';
 import { publications } from '@/app/data/publications';
 
-const courses = [
-    "CY 111", "CY 110", "CY 305", "CY 755", "CY 701", "CY 705",
-    "CY 804", "CY 861", "CY 866", "CY 863", "CY 874",
-];
-
 const Hero = () => {
     return (
         <section className="bg-white py-12 md:py-16">
@@ -55,19 +50,10 @@ const Hero = () => {
 
                             {/* Profile buttons */}
                             <a
-                                href="https://scholar.google.com/citations?user=gRYCXm8AAAAJ&hl=en"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="mt-6 inline-block bg-gray-900 hover:bg-green-700 text-white font-semibold px-6 py-3 transition-colors"
-                            >
-                                Google Scholar Profile
-                            </a>
-
-                            <a
                                 href="/CV.doc"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="mt-5 text-3xl font-bold text-red-600 hover:text-red-700 transition-colors"
+                                className="mt-6 text-3xl font-bold text-red-600 hover:text-red-700 transition-colors"
                             >
                                 CV
                             </a>
@@ -181,20 +167,6 @@ const Hero = () => {
                                 </Link>
                             </section>
 
-                            {/* Courses Section */}
-                            <section>
-                                <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
-                                    <span className="w-2 h-8 bg-green-500 rounded-full mr-3"></span>
-                                    Courses
-                                </h3>
-                                <div className="flex flex-wrap gap-3">
-                                    {courses.map((course) => (
-                                        <span key={course} className="bg-green-50 text-green-700 text-lg font-bold px-6 py-3 rounded-full border border-green-100/50">
-                                            {course}
-                                        </span>
-                                    ))}
-                                </div>
-                            </section>
                         </div>
                     </div>
                 </div>
