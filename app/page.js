@@ -36,7 +36,10 @@ export default function Home() {
         </section>
 
         {/* Publications */}
-        <section className="py-16 md:py-20">
+        <section
+          className="py-16 md:py-20 bg-green-50"
+          style={{ backgroundImage: "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='100'%3E%3Cg fill='none' stroke='%2316a34a' stroke-opacity='0.22' stroke-width='1.2'%3E%3Cpath d='M28 66L0 50L0 16L28 0L56 16L56 50L28 66L28 100'/%3E%3Cpath d='M28 0L28 34L0 50L0 84L28 100L56 84L56 50L28 34'/%3E%3C/g%3E%3C/svg%3E\"), linear-gradient(to bottom, rgba(220,252,231,0.95), rgba(220,252,231,0.6), #f0fdf4)" }}
+        >
           <div className="max-w-7xl mx-auto px-4 md:px-6">
             <h2 className="text-2xl font-bold text-gray-900 mb-8 flex items-center">
               <span className="w-2 h-8 bg-green-500 rounded-full mr-3"></span>
@@ -52,7 +55,7 @@ export default function Home() {
         </section>
 
         {/* About */}
-        <section className="pb-20 md:pb-28">
+        <section className="pt-16 md:pt-24 pb-20 md:pb-28">
           <div className="max-w-7xl mx-auto px-4 md:px-6 grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 items-center">
             <div className="md:col-span-4">
               <div className="relative aspect-[4/5] w-full max-w-sm mx-auto rounded-2xl overflow-hidden shadow-md border border-gray-100">
